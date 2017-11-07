@@ -9,6 +9,7 @@ while True:
 
     if rightNumber == numberInt:
         print('Correct!')
+        break
     elif rightNumber > numberInt:
         print('Smaller...')
     else rightNumber < numberInt:
