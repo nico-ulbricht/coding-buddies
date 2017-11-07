@@ -1,14 +1,15 @@
-rightnumber = 6
+import random
 
-numberString = input('Guess a number: ')
-number = int(numberString)
-print('hello')
+# rightNumber = 6
+rightNumber = random.randint(0, 100)
 
+while True:
+    numberString = input('Guess a number: ')
+    numberInt = int(numberString)
 
-
-str(6)
-
-
-
-a = 5
-print('a')
+    if rightNumber == numberInt:
+        print('Correct!')
+    elif rightNumber > numberInt:
+        print('Smaller...')
+    else rightNumber < numberInt:
+        print('Bigger!')
