@@ -10,9 +10,6 @@ expenses = [
 
 # PROGRAM
 whichMonth = input('which month? ')
-# for expense in expenses:
-# 	if expense['month'] == whichMonth:
-# 		print(expense['name'])
-
-
-print(sum([expense['cost'] for expense in expenses if expense['month'] == whichMonth]))
+for expense in expenses:
+	if expense['month'] == whichMonth:
+		print(expense['name'])
