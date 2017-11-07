@@ -1,7 +1,7 @@
 persons = ['nina', 'basti', 'francois', 'nico']
 
 for person in persons:
-	print(person)
 	if person == 'basti':
+		print(person)
 		break
 print('done')
